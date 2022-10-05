@@ -29,3 +29,25 @@
 .input:focus{
     outline: none;
 }
+
+.inputs-text{
+    list-style: none;
+
+}
+
+.inputs-text li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem 0.5rem;
+}
+
+.delete{
+    border: none;
+    visibility: hidden;
+    transition: all 0.2s ease-out;
+}
+
+.inputs-text li:hover .delete{
+    visibility: visible;
+}
