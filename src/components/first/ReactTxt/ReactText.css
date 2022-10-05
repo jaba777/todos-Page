@@ -1,0 +1,23 @@
+.blockquote{
+    padding: 1.5rem 0.5rem;
+    position: relative;
+    border-bottom: 1px dashed gray;
+}
+.react-text{
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.blockquote span {
+    position: absolute;
+    right: 0;
+    bottom: 0.4rem;
+}
+
+.blockquote span a{
+    font-weight: normal;
+    text-decoration: none;
+    color: #b83f45;
+}
+

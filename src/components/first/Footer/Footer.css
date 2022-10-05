@@ -1,0 +1,13 @@
+footer{
+    padding: 0.8rem;
+}
+
+footer p{
+    font-size: 13px;
+    font-style: italic;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #b83f45;
+}

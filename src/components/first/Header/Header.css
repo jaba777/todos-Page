@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed gray;
+    padding: 0.8rem 0.5rem;
+}
+
+header h3{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.react-sources{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-top: 1rem;
+}
+
+.react-sources span{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.react-sources span a{
+    text-decoration: none;
+    color: #b83f45;
+    font-weight: 500;
+}
