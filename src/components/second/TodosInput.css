@@ -35,19 +35,42 @@
 
 }
 
+.close-text{
+  height: 0;
+  overflow: hidden;
+}
+
 .inputs-text li{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.3rem 0.5rem;
+    padding: 0.7rem 0.5rem;
+    margin: 1rem 0.5rem;
 }
 
 .delete{
     border: none;
     visibility: hidden;
     transition: all 0.2s ease-out;
+    color: brown;
 }
 
 .inputs-text li:hover .delete{
     visibility: visible;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 2rem;
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+.buttons button{
+    border: none;
 }
